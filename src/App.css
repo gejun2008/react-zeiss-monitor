@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -28,6 +30,31 @@
   color: #61dafb;
 }
 
+.Container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  flex: 1 1 auto;
+}
+
+.toolbar {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.Main {
+  display: flex;
+  height: 97vh;
+  flex-direction: column;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

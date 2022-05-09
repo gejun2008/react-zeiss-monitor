@@ -1,0 +1,27 @@
+label {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.summary-detail div {
+    margin-bottom: 1rem;
+}
+
+.spin-in-center {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+}
+
+.machine-detail {
+    display: flex;
+    flex-direction: row;
+}
+.col-1 {
+    flex: 1 1 auto;
+}
+
+.col-1 li{
+    margin-bottom: 4px;
+}
